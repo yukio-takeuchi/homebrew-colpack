@@ -13,7 +13,7 @@ class Colpack < Formula
     # Remove unrecognized options if warned by configure
     #system  "cd", "build/automake"
     #system "pwd"
-    system  "autoreconf", "-v", "--install", "--force"
+    system  "/usr/local/bin/autoreconf", "-v", "--install", "--force"
     # system "pwd"
     system  "./configure", "--disable-debug",
                           "--disable-dependency-tracking",
