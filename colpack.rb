@@ -7,6 +7,8 @@ class Colpack < Formula
   url "https://github.com/CSCsw/ColPack/archive/v1.0.10.tar.gz"
   head "https://github.com/CSCsw/ColPack.git"
 
+  depends_on "autoconf"      => :build 
+  depends_on "automake"      => :build 
 
   def install
     # ENV.deparallelize  # if your formula fails when building in parallel
