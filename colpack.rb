@@ -9,6 +9,7 @@ class Colpack < Formula
 
   depends_on "autoconf"      => :build 
   depends_on "automake"      => :build 
+  depends_on "libtool"       => :build 
 
   def install
     # ENV.deparallelize  # if your formula fails when building in parallel
