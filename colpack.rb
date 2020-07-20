@@ -5,6 +5,7 @@ class Colpack < Formula
   desc "ColPack"
   homepage "https://cscapes.cs.purdue.edu/coloringpage/index.htm"
   url "https://github.com/CSCsw/ColPack/archive/v1.0.10.tar.gz"
+  sha256 "b22ead7da80fa1735291b2d83198adf41bf36101e4fcb2c4f07c1cfacf211c75"
   head "https://github.com/CSCsw/ColPack.git"
 
   depends_on "autoconf"      => :build 
